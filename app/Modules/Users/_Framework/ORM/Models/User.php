@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\TemplateStructure\_Framework\ORM\Models;
+namespace App\Modules\Users\_Framework\ORM\Models;
 
-use App\Modules\TemplateStructure\_Framework\ORM\Factories\TemplateFactory;
+use App\Modules\Users\_Framework\ORM\Factories\UsersFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 
-class TemplateModel extends Model
+class User extends Model
 {
-    /** @see HasFactory<TemplateFactory> */
+    /** @see HasFactory<UsersFactory> */
     use HasFactory, Notifiable;
 
     protected static function newFactory()
     {
-        return TemplateFactory::new();
+        return UsersFactory::new();
     }
 }

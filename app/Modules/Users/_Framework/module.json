@@ -1,0 +1,21 @@
+{
+  "name": "users",
+  "alias": "Пользователи",
+  "description": "Модуль пользователи ",
+  "version": "1.0.0",
+  "providers": [
+    "App\\Modules\\Users\\_Framework\\Providers\\UsersServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": [],
+  "settings": {
+
+  },
+  "permissions": [
+
+  ],
+  "tables": [
+
+  ]
+}

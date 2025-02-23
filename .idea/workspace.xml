@@ -4,21 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55678aff-5837-4af0-9cba-9daaa9d59383" name="Changes" comment="Init + Template">
+    <list default="true" id="55678aff-5837-4af0-9cba-9daaa9d59383" name="Changes" comment="Naming">
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/Application/DTOs/TemplateFetchDOR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/Infrastructure/Repositories/Repository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Config/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/DependencyInjection/UsersContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Facades/Users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/ORM/Factories/UsersFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/ORM/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Providers/UsersServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/UsersModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/module.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/Config/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Config/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/DependencyInjection/TemplateContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/DependencyInjection/TemplateContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/Facades/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Facades/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/ORM/Factories/TemplateFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Factories/TemplateFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/ORM/Models/TemplateModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Models/TemplateModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/Providers/TemplateServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Providers/TemplateServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/TemplateModule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/TemplateModule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Common/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/Infrastructure/DTOs/TemplateFetchDOR.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/Application/DTOs/TemplateFetchDOR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Facades/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Facades/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Factories/TemplateFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Factories/TemplateFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Models/TemplateModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Models/TemplateModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/module.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/providers.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/providers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
@@ -35,18 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gfmweb"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gfmweb&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gfmweb/Dogs.git",
-    "accountId": "47704090-b7cb-4a58-b0bc-af23af007b39"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gfmweb/Dogs.git&quot;,
+    &quot;accountId&quot;: &quot;47704090-b7cb-4a58-b0bc-af23af007b39&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
@@ -167,33 +172,37 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2tMKKh2CWxRQ71bLCVOkwCRJIOX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/gfm/PhpstormProjects/Dogs/app/Modules/TeplateStructure/Common",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gfm/PhpstormProjects/Dogs/app/Modules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redis",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Modules" />
       <recent name="$PROJECT_DIR$/app/Modules/TeplateStructure/Common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -227,7 +236,9 @@
       <workItem from="1740245315071" duration="1525000" />
       <workItem from="1740293906279" duration="748000" />
       <workItem from="1740294682657" duration="3150000" />
-      <workItem from="1740308832364" duration="2270000" />
+      <workItem from="1740308832364" duration="3623000" />
+      <workItem from="1740329259546" duration="512000" />
+      <workItem from="1740330606567" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Init + Template">
       <option name="closed" value="true" />
@@ -237,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740309994676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Naming">
+      <option name="closed" value="true" />
+      <created>1740311292041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740311292041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +266,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Init + Template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init + Template" />
+    <MESSAGE value="Naming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Naming" />
   </component>
 </project>

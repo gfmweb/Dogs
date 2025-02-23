@@ -2,16 +2,17 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\TemplateStructure\_Framework\ORM\Factories;
+namespace App\Modules\Users\_Framework\ORM\Factories;
 
+use App\Modules\Users\_Framework\ORM\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<User>
  */
-class TemplateFactory extends Factory
+class UsersFactory extends Factory
 {
-    protected $model = '';//User::class;
+    protected $model = User::class;
     public function definition(): array
     {
         return [

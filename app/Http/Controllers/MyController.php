@@ -19,6 +19,12 @@ class MyController extends Controller
         $usersContainer = $usersModule->getContainer();
         dump($usersContainer);
         dump($usersContainer->list());
-    /*    dump(TemplateModel::factory(1)->make());*/
+
+        $usersModule = $this->container->getModule('users');
+        dump($usersModule);
+        $usersContainer = $usersModule->getContainer();
+        dump($usersContainer);
+        dump($usersContainer->list());
+
     }
 }

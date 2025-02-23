@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\TemplateStructure\_Framework\Facades;
+namespace App\Modules\Users\_Framework\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Template extends Facade
+class Users extends Facade
 {
     public static function isActive(): bool
     {
-        return config('template.active', true);
+        return config('users.active', true);
     }
 
     protected static function getFacadeAccessor(): string
     {
-        return 'template-module';
+        return 'users-module';
     }
 }

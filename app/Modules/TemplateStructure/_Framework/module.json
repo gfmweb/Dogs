@@ -4,7 +4,7 @@
   "description": "Модуль ",
   "version": "1.0.0",
   "providers": [
-    "App\\Modules\\TemplateStructure\\Common\\UsersServiceProvider"
+    "App\\Modules\\TemplateStructure\\_Framework\\Providers\\TemplateServiceProvider"
   ],
   "aliases": {},
   "files": [],

@@ -32,6 +32,7 @@
     28 => 'Termwind\\Laravel\\TermwindServiceProvider',
     29 => 'App\\Providers\\AppServiceProvider',
     30 => 'App\\Modules\\TemplateStructure\\_Framework\\Providers\\TemplateServiceProvider',
+    31 => 'App\\Modules\\Users\\_Framework\\Providers\\UsersServiceProvider',
   ),
   'eager' => 
   array (
@@ -51,6 +52,7 @@
     13 => 'Termwind\\Laravel\\TermwindServiceProvider',
     14 => 'App\\Providers\\AppServiceProvider',
     15 => 'App\\Modules\\TemplateStructure\\_Framework\\Providers\\TemplateServiceProvider',
+    16 => 'App\\Modules\\Users\\_Framework\\Providers\\UsersServiceProvider',
   ),
   'deferred' => 
   array (
