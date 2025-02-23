@@ -1,0 +1,21 @@
+{
+  "name": "TemplateModule",
+  "alias": "template-module",
+  "description": "Модуль ",
+  "version": "1.0.0",
+  "providers": [
+    "App\\Modules\\TemplateStructure\\Common\\UsersServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": [],
+  "settings": {
+
+  },
+  "permissions": [
+
+  ],
+  "tables": [
+
+  ]
+}
