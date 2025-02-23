@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\TemplateStructure\Common;
+namespace App\Modules\TemplateStructure\_Framework;
 
 use App\Common\Abstract\AbstractModule;
-use App\Modules\TemplateStructure\Common\DependencyInjection\TemplateContainer;
+use App\Modules\TemplateStructure\_Framework\DependencyInjection\TemplateContainer;
+
 
 class TemplateModule extends AbstractModule
 {

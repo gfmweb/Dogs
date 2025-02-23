@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\TemplateStructure\Common\DependencyInjection;
+namespace App\Modules\TemplateStructure\_Framework\DependencyInjection;
 
 use App\Common\Abstract\DTOs\FetchDTO;
-use App\Modules\TemplateStructure\Infrastructure\DTOs\TemplateFetchDOR;
+use App\Modules\TemplateStructure\Application\DTOs\TemplateFetchDOR;
 use Illuminate\Container\Container;
 
 class TemplateContainer extends Container

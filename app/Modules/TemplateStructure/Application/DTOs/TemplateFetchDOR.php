@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\TemplateStructure\Infrastructure\DTOs;
+namespace App\Modules\TemplateStructure\Application\DTOs;
 
 use App\Common\Abstract\DTOs\FetchDTO;
 

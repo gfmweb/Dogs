@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Common\ModuleContainer;
 use Illuminate\Http\Request;
-use App\Modules\TemplateStructure\Common\ORM\Models\TemplateModel;
+
 
 class MyController extends Controller
 {
@@ -14,11 +14,11 @@ class MyController extends Controller
     }
     public function index()
     {
-       /* $usersModule = $this->container->getModule('template');
+        $usersModule = $this->container->getModule('template');
         dump($usersModule);
         $usersContainer = $usersModule->getContainer();
         dump($usersContainer);
-        dump($usersContainer->list());*/
-        dump(TemplateModel::factory(1)->make());
+        dump($usersContainer->list());
+    /*    dump(TemplateModel::factory(1)->make());*/
     }
 }

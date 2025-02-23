@@ -2,12 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\TemplateStructure\Common\Providers;
+namespace App\Modules\TemplateStructure\_Framework\Providers;
 
 use App\Common\ModuleContainer;
-use App\Modules\TemplateStructure\Common\TemplateModule;
+use App\Modules\TemplateStructure\_Framework\TemplateModule;
 use Illuminate\Support\ServiceProvider;
-
 
 class TemplateServiceProvider extends ServiceProvider
 {
