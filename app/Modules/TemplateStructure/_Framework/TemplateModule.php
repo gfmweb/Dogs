@@ -26,4 +26,9 @@ class TemplateModule extends AbstractModule
     {
         return $this->container;
     }
+
+    public function isActive(): bool
+    {
+        return config('template.active', true);
+    }
 }

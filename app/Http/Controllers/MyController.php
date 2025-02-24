@@ -3,28 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Common\ModuleContainer;
+use App\Modules\TemplateStructure\Application\Interactors\Interactor;
 use Illuminate\Http\Request;
 
 
 class MyController extends Controller
 {
-    public function __construct(private ModuleContainer $container)
+
+    public function index(Interactor $interactor)
     {
-
-    }
-    public function index()
-    {
-        $usersModule = $this->container->getModule('template');
-        dump($usersModule);
-        $usersContainer = $usersModule->getContainer();
-        dump($usersContainer);
-        dump($usersContainer->list());
-
-        $usersModule = $this->container->getModule('users');
-        dump($usersModule);
-        $usersContainer = $usersModule->getContainer();
-        dump($usersContainer);
-        dump($usersContainer->list());
-
+        $interactor->handle();
     }
 }

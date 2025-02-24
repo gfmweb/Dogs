@@ -7,4 +7,6 @@ namespace App\Common\Interfaces;
 interface ModuleInterface
 {
     public function getName(): string;
+
+    public function isActive();
 }

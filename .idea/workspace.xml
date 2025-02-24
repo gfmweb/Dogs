@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55678aff-5837-4af0-9cba-9daaa9d59383" name="Changes" comment="Naming">
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/Application/DTOs/TemplateFetchDOR.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/Infrastructure/Repositories/Repository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Config/users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/DependencyInjection/UsersContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Facades/Users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/ORM/Factories/UsersFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/ORM/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/Providers/UsersServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/UsersModule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/module.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/routes/web.php" afterDir="false" />
+    <list default="true" id="55678aff-5837-4af0-9cba-9daaa9d59383" name="Changes" comment="Исправлены ошибки + добавлен модуль Users">
+      <change afterPath="$PROJECT_DIR$/app/Common/Abstract/AbstractInteractor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/Application/Interactors/Interactor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Common/Interfaces/ModuleInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Common/Interfaces/ModuleInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Facades/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/Facades/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Factories/TemplateFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Factories/TemplateFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Models/TemplateModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/ORM/Models/TemplateModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/providers.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/providers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/TemplateModule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/TemplateStructure/_Framework/TemplateModule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Users/_Framework/UsersModule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Users/_Framework/UsersModule.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,27 +165,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gfm/PhpstormProjects/Dogs/app/Modules&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/gfm/PhpstormProjects/Dogs/app/Modules",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redis&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Modules" />
@@ -238,7 +225,8 @@
       <workItem from="1740294682657" duration="3150000" />
       <workItem from="1740308832364" duration="3623000" />
       <workItem from="1740329259546" duration="512000" />
-      <workItem from="1740330606567" duration="1868000" />
+      <workItem from="1740330606567" duration="2168000" />
+      <workItem from="1740413975989" duration="3618000" />
     </task>
     <task id="LOCAL-00001" summary="Init + Template">
       <option name="closed" value="true" />
@@ -256,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740311292041</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Исправлены ошибки + добавлен модуль Users">
+      <option name="closed" value="true" />
+      <created>1740332534210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740332534210</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +263,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Init + Template" />
     <MESSAGE value="Naming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Naming" />
+    <MESSAGE value="Исправлены ошибки + добавлен модуль Users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлены ошибки + добавлен модуль Users" />
   </component>
 </project>

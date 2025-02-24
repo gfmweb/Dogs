@@ -26,4 +26,9 @@ class UsersModule extends AbstractModule
     {
         return $this->container;
     }
+
+    public function isActive(): bool
+    {
+        return config('users.active', true);
+    }
 }
